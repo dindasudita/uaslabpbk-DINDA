@@ -9,14 +9,12 @@ export default {
         <h1 class="judul-uas">KETERANGAN UAS</h1>
         <ul class="list-uas">
             <li>
-                Jika lokasi yang diinputkan user memiliki temperature >= 28, maka border card CUACA dan Temperature akan berwarna #fd9f01, artinya temperature masuk kategori WARM atau HANGAT.
-                
+                Jika lokasi yang diinputkan user memiliki temperature >= 28, maka border card CUACA dan Temperature akan berwarna #fd9f01, artinya temperature di lokasi tersebut masuk kategori WARM atau HANGAT.
                 <img src="../assets/WARM.png" class="WARM">
             </li>
             <br>
             <li>
-                Jika lokasi yang diinputkan user memiliki temperature < 28, maka border card CUACA dan Temperature akan berwarna #1a95a0, artinya temperature masuk kategori COOL atau SEJUK.
-                
+                Jika lokasi yang diinputkan user memiliki temperature < 28, maka border card CUACA dan Temperature akan berwarna #1a95a0, artinya temperature di lokasi tersebut masuk kategori COOL atau SEJUK.
                 <img src="../assets/COLD.png"  class="COLD">
             </li>
         </ul>
